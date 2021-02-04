@@ -1,0 +1,2 @@
+mongodump --db=paybotus_test --collection=paybotus_feedback
+
