@@ -1,2 +1,2 @@
-mongodump --db=paybotus_test --collection=paybotus_feedback
+mongodump --db=paybotus_test --collection=paybotus_feedback   // to export collection in bson file format.. 
 
