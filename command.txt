@@ -3,5 +3,7 @@ mongodump --db=user --collection=validUser   // to export collection in bson fil
 
 db.users.find({"name": /.*m.*/})  // finf pattern contain m in string
 
+i means Case insensitivity to match upper and lower cases.
+
 category:{$regex:".*unidentified.*"} }; with regex
 
