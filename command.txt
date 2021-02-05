@@ -3,3 +3,5 @@ mongodump --db=user --collection=validUser   // to export collection in bson fil
 
 db.users.find({"name": /.*m.*/})  // finf pattern contain m in string
 
+category:{$regex:".*unidentified.*"} }; with regex
+
